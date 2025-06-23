@@ -138,7 +138,7 @@ export function ProductsSection() {
                   </Button>
                   <Button
                     variant="outline"
-                    className="border-white/30 text-white hover:bg-white/10"
+                    className="border-white/30 bg-transparent text-white hover:bg-white/10"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </Button>
