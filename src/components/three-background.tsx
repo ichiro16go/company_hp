@@ -5,9 +5,9 @@ import * as THREE from "three"
 
 export function ThreeBackground() {
   const mountRef = useRef<HTMLDivElement>(null)
-  const sceneRef = useRef<THREE.Scene>()
-  const rendererRef = useRef<THREE.WebGLRenderer>()
-  const animationIdRef = useRef<number>()
+  const sceneRef = useRef<THREE.Scene>(null)
+  const rendererRef = useRef<THREE.WebGLRenderer>(null)
+  const animationIdRef = useRef<number>(null)
 
   useEffect(() => {
     if (!mountRef.current) return
